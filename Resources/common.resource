@@ -2,7 +2,7 @@
 Library                 QWeb
 Library                 ExcelLibrary
 Library                 String
-Library                 ../libraries/GitOperations.py
+Library                 ../Libraries/GitOperations.py
 
 *** Variables ***
 ${BROWSER}              chrome
