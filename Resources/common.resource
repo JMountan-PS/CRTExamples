@@ -7,7 +7,7 @@ Library                 ../Libraries/GitOperations.py
 *** Variables ***
 ${BROWSER}              chrome
 ${webshop}              https://qentinelqi.github.io/shop/
-${excel_worksheet}      ${CURDIR}/../data/products_worksheet.xlsx
+${excel_worksheet}      ${CURDIR}/../Data/products_worksheet.xlsx
 ${git_branch}           main
 
 *** Keywords ***
