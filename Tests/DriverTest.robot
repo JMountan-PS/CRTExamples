@@ -1,6 +1,6 @@
 *** Settings ***
 Resource                ../Resources/common.resource
-Test Teardown           Close All Excel Documents
+Test Teardown           Close All Excel Document
 Suite Setup             Setup Browser
 Suite Teardown          End Suite
 
