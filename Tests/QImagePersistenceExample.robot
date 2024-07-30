@@ -5,7 +5,7 @@ Documentation        New test suite
 Library              QForce
 Library              QImage
 Library              OperatingSystem
-Library                GitOperations.py
+Library                ../Libraries/GitOperations.py
 Suite Setup          Open Browser                about:blank    chrome
 Suite Teardown       Close All Browsers
 
