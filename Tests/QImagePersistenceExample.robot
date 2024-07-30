@@ -5,6 +5,7 @@ Documentation        New test suite
 Library              QForce
 Library              QImage
 Library              OperatingSystem
+Library                GitOperations.py
 Suite Setup          Open Browser                about:blank    chrome
 Suite Teardown       Close All Browsers
 
@@ -26,3 +27,13 @@ Image Verification
     ${SecondImage}=   LogScreenshot
 
     CompareImages    ${FirstImage}    ${SecondImage}    tolerance=0.6
+
+
+
+IMage first capture
+    GoTo             https://www.timeanddate.com/timer/
+    ${FirstImage}=   LogScreenshot
+
+    Copy File        ${FirstImage}    ${EXECDIR}/../images/src_opty_image.png
+    List Directory                    ${EXECDIR}/../images
+    
