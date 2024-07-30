@@ -37,5 +37,5 @@ IMage first capture
     Copy File        ${FirstImage}    ${EXECDIR}/../images/src_opty_image.png
     List Directory                    ${EXECDIR}/../images
     Log Variables                     level=WARN
-    Commit And Push                    ${EXECDIR}/../images/src_opty_image.png   master
+    Commit And Push                    ${CURDIR}/../images/src_opty_image.png   master
     
