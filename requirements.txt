@@ -2,3 +2,4 @@ gitpython
 typing
 openpyxl
 robotframework-excellib
+robotframework-csvlibrary
