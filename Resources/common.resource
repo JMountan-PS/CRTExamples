@@ -4,6 +4,7 @@ Library                         QForce
 Library                         String
 Library                         Collections
 Library                         DateTime
+Library                         OperatingSystem
 
 *** Keywords ***
 Setup Browser
